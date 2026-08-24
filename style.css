@@ -496,20 +496,6 @@ h1, h2, h3, h4 {
     display: block;
 }
 
-.slide-tag {
-    position: absolute;
-    top: 24px;
-    left: 24px;
-    background: rgba(15, 23, 42, 0.85);
-    backdrop-filter: blur(8px);
-    color: #ffffff;
-    font-size: 0.85rem;
-    font-weight: 600;
-    padding: 0.45rem 1rem;
-    border-radius: var(--radius-full);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
 .slide-text-box {
     padding: 3.5rem 3.5vw;
     display: flex;
@@ -1247,15 +1233,6 @@ h1, h2, h3, h4 {
     .slide-img-box {
         min-height: 200px;
         height: 200px;
-    }
-
-    .slide-tag {
-        top: 12px;
-        left: 12px;
-        font-size: 0.75rem;
-        padding: 0.3rem 0.75rem;
-    }
-
     .slide-text-box {
         padding: 1.5rem 1.15rem;
         text-align: center;
