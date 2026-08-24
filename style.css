@@ -475,16 +475,16 @@ h1, h2, h3, h4 {
 
 .slide-content-grid {
     display: grid;
-    grid-template-columns: 1.35fr 0.65fr;
+    grid-template-columns: 1fr 1fr;
     align-items: stretch;
-    min-height: 580px;
+    min-height: 540px;
     width: 100%;
 }
 
 .slide-img-box {
     position: relative;
     height: 100%;
-    min-height: 580px;
+    min-height: 540px;
     overflow: hidden;
     width: 100%;
 }
@@ -511,7 +511,7 @@ h1, h2, h3, h4 {
 }
 
 .slide-text-box {
-    padding: 3.5rem 4vw;
+    padding: 3.5rem 3.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -609,10 +609,6 @@ h1, h2, h3, h4 {
    Section Ce que vous allez apprendre dans cette Masterclass
    ========================================================================== */
 
-/* ==========================================================================
-   Section Ce que vous allez apprendre dans cette Masterclass
-   ========================================================================== */
-
 .section-learning {
     padding: 4rem 0;
     background-color: var(--bg-white);
@@ -635,6 +631,8 @@ h1, h2, h3, h4 {
     transition: all 0.25s ease;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     box-shadow: var(--shadow-sm);
 }
 
@@ -647,6 +645,9 @@ h1, h2, h3, h4 {
 
 .learning-card-header {
     margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .module-number {
@@ -662,6 +663,7 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .learning-card h3 {
@@ -669,6 +671,7 @@ h1, h2, h3, h4 {
     margin-bottom: 1rem;
     color: var(--text-dark);
     line-height: 1.3;
+    text-align: center;
 }
 
 .learning-card p {
@@ -677,6 +680,7 @@ h1, h2, h3, h4 {
     line-height: 1.7;
     margin-bottom: 0;
     flex-grow: 1;
+    text-align: center;
 }
 
 /* ==========================================================================
